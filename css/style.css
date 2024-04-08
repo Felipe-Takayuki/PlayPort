@@ -1,3 +1,49 @@
-.topo > .container{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+.topo{
+    background-color: #1F2221;
+}
+.logo{
+    align-items: center;
     display: flex;
+}
+.barra{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.barra > img {
+    width: 4%
+}
+.divisor{
+    width: 100%;
+    height: 4px;
+    background-color: #00F0FF;
+}
+.logo > img {
+    width: 30%;
+}
+.logo > h1{
+        color: #00F0FF;
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        margin-left: 20px;
+        font-size: xx-large;
+}
+.navegacao> ul{
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+}
+
+.navegacao> ul > li > a{
+    color: white;
+    font-size: large ;
 }

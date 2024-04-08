@@ -1,5 +1,5 @@
 <?php 
-require_once 'topo.php';
+require_once 'components/topo.php';
 ?>
 </body>
 </html>
