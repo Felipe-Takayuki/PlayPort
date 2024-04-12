@@ -10,7 +10,8 @@
  <header class="topo">
     <div class="barra">
     <div class="logo">
-        <img src="assets/images/logo.svg" alt="" srcset="">
+        <a href="index.php?page=meio"><img src="assets/images/logo.svg" alt="" srcset=""></a>
+        
         <h1>PlayPort</h1>
     </div>
     <img src="assets/icons/person.svg" alt="" srcset="">
@@ -21,7 +22,6 @@
         <ul>
             <li><a href="index.php?page=itens">Itens</a></li>
             <li><a href="index.php?page=locacao">Locação</a></li>
-            <li><a href="index.php?page=servicos">Serviços</a></li>
             <li><a href="index.php?page=empresa">Empresa</a></li>
             <li><a href="index.php?page=fale_conosco">Fale Conosco</a></li>
         </ul>
