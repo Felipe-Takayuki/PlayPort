@@ -10,7 +10,7 @@
  <header class="topo">
     <div class="barra">
     <div class="logo">
-        <a href="index.php?page=meio"><img src="assets/images/logo.svg" alt="" srcset=""></a>
+        <a href="index.php?page=home"><img src="assets/images/logo.svg" alt="" srcset=""></a>
         
         <h1>PlayPort</h1>
     </div>
