@@ -6,6 +6,7 @@
         <div class="destaque">
             <p>Em destaque: </p>
             <div class="jogos">
+                
                 <div class="card">jogo bom</div>
                 <div class="card">jogo bom</div>
                 <div class="card">jogo bom</div>

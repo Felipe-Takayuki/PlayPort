@@ -1,10 +1,13 @@
 <?php 
 require_once 'components/topo.php';
-if (isset($_GET['p'])) {
-    $p = $_GET['p'];
+if (isset($_GET['page'])) {
+    $p = $_GET['page'];
     switch($p) {
         case 'home': 
             require_once 'components/meio.php';
+            break;
+        case 'jogos':
+            require_once 'pages/jogos.php';
             break;
     }
 }else {
