@@ -1,3 +1,4 @@
+
 .categoria > .jogos {
     display: flex;
     justify-content: space-around;
@@ -24,15 +25,20 @@
     background-color: var(--cardColor);
 }
 .categoria > .titulo {
+    margin-top: 10px;
+    margin-bottom:5px ;
     font-weight: bold;
     font-size: 26px;
     margin-left: 30px;
     color: white;
 }
 .categoria > .jogos > .card-jogo > .nome-jogo{
+    font-weight: 600;
     color: white;
 }
 .meio > .page-name {
     color: white;
-    font-size: 90px;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
