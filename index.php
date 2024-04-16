@@ -1,5 +1,6 @@
 <?php 
 require_once 'components/topo.php';
+
 if (isset($_GET['page'])) {
     $p = $_GET['page'];
     switch($p) {
@@ -8,6 +9,15 @@ if (isset($_GET['page'])) {
             break;
         case 'jogos':
             require_once 'pages/jogos.php';
+            break;
+        case 'locacao':
+            require_once 'pages/locacao.php';
+            break;
+        case 'empresa'
+            require_once 'pages/empresa.php';
+            break;
+        case 'fale_conosco'
+            require_once 'pages/fale_conosco.php';
             break;
     }
 }else {
