@@ -25,6 +25,7 @@
             <li><a href="index.php?page=locacao">Locação</a></li>
             <li><a href="index.php?page=empresa">Empresa</a></li>
             <li><a href="index.php?page=fale_conosco">Fale Conosco</a></li>
+            <li><a href="index.php?page=cadastro">Cadastro</a></li>
         </ul>
     </nav>
  </header>

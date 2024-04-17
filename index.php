@@ -10,15 +10,16 @@ if (isset($_GET['page'])) {
         case 'jogos':
             require_once 'pages/jogos.php';
             break;
-        case 'locacao':
-            require_once 'pages/locacao.php';
-            break;
-        case 'empresa'
+        case 'empresa':
             require_once 'pages/empresa.php';
             break;
-        case 'fale_conosco'
+        case 'fale_conosco':
             require_once 'pages/fale_conosco.php';
             break;
+        case 'locacao':
+            require_once 'pages/locacao.php';
+        default: 
+        
     }
 }else {
     require_once 'components/meio.php';
