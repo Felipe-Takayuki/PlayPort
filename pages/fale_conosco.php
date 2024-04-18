@@ -1,17 +1,18 @@
     
     <main>
         <article class="meio">
+            <div class="espaco"></div>
             <p class="page-name">Fale Conosco</p>
                 <form action="" method="post" class="form-fale">
                     <div class="row">
                         <div class="col">
-                            <input type="text" name="ctnome">
-                            <input type="text" name="ctemail">
-                            <input type="text" name="cttelefone">
+                            <input type="text" name="ctnome" placeholder="Nome">
+                            <input type="text" name="ctemail" placeholder="E-mail">
+                            <input type="text" name="cttelefone" placeholder="Telefône">
                         </div>
                         <div class="col">
-                            <input type="text" name="ctassunto">
-                            <textarea name="email" cols="30" rows="10"></textarea>
+                            <input type="text" name="ctassunto" placeholder="Assunto">
+                            <textarea name="email" cols="30" rows="10" placeholder="Conteúdo do e-mail"></textarea>
                         </div>
                     </div>
                     
