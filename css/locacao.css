@@ -1,0 +1,10 @@
+
+
+.dataExpiracao{
+    color: white;
+    margin-bottom: 3%;
+}
+
+.dataExpiracao > b{
+    color: #FF5656;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/games.css">
     <link rel="stylesheet" href="css/empresa.css">
     <link rel="stylesheet" href="css/fale.css">
+    <link rel="stylesheet" href="css/locacao.css">
 </head>
 <body>
  <header class="topo">
