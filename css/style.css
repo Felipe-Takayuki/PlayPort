@@ -9,7 +9,10 @@
 }
 
 
+
+textarea:focus, input:focus, select:focus { box-shadow: 0 0 0 0; border: 0 none; outline: 0; }
 *{
+    
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -99,25 +102,29 @@ body{
     font-size: 26px;
 }
 .destaque > .jogos {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .destaque > .jogos > .card{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 29%;
-    background-color:var(--cardColor) ;
+    width: 27%;
+    background-color:var(--cardColor);
     height: 314px;
 }
 
 .destaque > .empresa {
+    margin-left: 20px;
+    margin-right: 20px;
     color: white;
     margin-top: 20px;
     margin-bottom: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .destaque > .empresa > .imagem {

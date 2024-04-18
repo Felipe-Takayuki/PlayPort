@@ -12,17 +12,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 29%;
+    width: 27%;
     height: 314px;
 }
 
 .categoria > .jogos > .card-jogo > .card {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 100%;
-    background-color: var(--cardColor);
+    background-color:var(--cardColor);
+    height: 314px;
 }
 .categoria > .titulo {
     margin-top: 10px;
