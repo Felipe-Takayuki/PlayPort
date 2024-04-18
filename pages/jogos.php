@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="categoria">
-        <p class="titulo">Shotter</p>
+        <p class="titulo">Shooter</p>
         <div class="jogos">
             <div class="card-jogo">
                 <div class="card">jogo bom</div>

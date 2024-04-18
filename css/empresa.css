@@ -1,0 +1,28 @@
+
+.meio > .categoria > p{
+    color: white;
+    padding: 5%;
+
+    font-size: 16pt;
+    text-align: justify;
+}
+
+.banner{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#textLogo2{
+    margin-top: 3%;
+    color: #485465;
+    
+    -webkit-text-stroke: 4px #00F0FF;
+
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 46pt;
+}
