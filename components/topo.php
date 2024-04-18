@@ -6,6 +6,7 @@
     <title>PlayPort</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/games.css">
+    <link rel="stylesheet" href="css/fale.css">
 </head>
 <body>
  <header class="topo">
