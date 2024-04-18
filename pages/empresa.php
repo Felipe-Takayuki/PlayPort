@@ -9,7 +9,8 @@
                 <h1 id="textLogo2">PlayPort</h1>
 
                 <div class="banner">
-                    <p>Av. Lorenzo Ipsum, 972</p>
+                    <img src="assets\images\fachada.jpg" alt="Fachada da empresa">
+                    <p>Av. Lorenzo Ipsum, 678</p>
                 </div>
                 
                 <p>
