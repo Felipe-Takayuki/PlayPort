@@ -1,0 +1,62 @@
+.form-jogo{
+    padding: 20px;
+    padding-left: 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backGroundContainer);
+    align-items: center;
+}
+.add-img{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--tema) dashed;
+    width: 30%;
+    height: 250px;
+}
+.add-img > img {
+    width: 20%;
+}
+
+.col-jogo{
+    padding-top:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.form-jogo> .row> .col-jogo>  input {
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+}
+.form-jogo> .row> .col-jogo>  textarea {
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.form-jogo > .btn{
+    background-color: #00BAC6;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border: none;
+    width: 40%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+.espaco-jogo{
+    height: 60px;
+}

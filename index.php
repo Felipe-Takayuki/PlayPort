@@ -25,6 +25,9 @@ if (isset($_GET['page'])) {
         case 'login':
             require_once 'pages/login.php';
             break;
+        case 'jogo_cadastro':
+            require_once 'pages/cadastro_jogo.php';
+            break;
     }
 }else {
     require_once 'components/meio.php';

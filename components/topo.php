@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/fim.css">
     <link rel="stylesheet" href="css/cadastro.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro-jogo.css">
 </head>
 <body>
  <header class="topo">
