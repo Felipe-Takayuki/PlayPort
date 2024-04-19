@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayPort</title>
+    <link rel="icon" href="assets/images/logo.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/games.css">
     <link rel="stylesheet" href="css/empresa.css">
     <link rel="stylesheet" href="css/fale.css">
     <link rel="stylesheet" href="css/locacao.css">
+    <link rel="stylesheet" href="css/fim.css">
 </head>
 <body>
  <header class="topo">
@@ -18,7 +20,7 @@
         
         <h1>PlayPort</h1>
     </div>
-    <img src="assets/icons/person.svg" alt="" srcset="">
+    <a href="index.php?page=cadastro"> <img src="assets/icons/person.svg" alt="" srcset=""> </a>
     </div>
 
     <div class="divisor"></div>

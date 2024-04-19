@@ -31,5 +31,3 @@
     </article>
 </main>
 
-</body>
-</html>

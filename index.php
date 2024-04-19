@@ -25,6 +25,7 @@ if (isset($_GET['page'])) {
     require_once 'components/meio.php';
 }
 
+require_once 'components/rodape.php';
 ?>
 </body>
 </html>
