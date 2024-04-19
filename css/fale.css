@@ -34,21 +34,12 @@
 
 .row > .col > input {
     border: none;
-<<<<<<< HEAD
  padding: 2px;
  margin: 20px;
  width: 80%;
  font-size: 20px;
  height: 40px;
  border-radius: 15px;  
-=======
-    padding: 2px;
-    margin: 20px;
-    width: 80%;
-    font-size: 20px;
-    height: 40px;
-    border-radius: 10px;  
->>>>>>> 39175968b706597fef47784a9741190b73ad7a60
 }
 
 .espaco{
