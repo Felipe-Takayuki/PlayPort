@@ -34,11 +34,11 @@
     font-weight: bold;
     font-size: 26px;
     margin-left: 30px;
-    color: var(--font1);
+    color: var(--fonte1);
 }
 
 .categoria > .jogos > .card-jogo > .nome-jogo{
     margin: 2%;
     font-weight: 600;
-    color: var(--font1);
+    color: var(--fonte1);
 }
