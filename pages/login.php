@@ -8,7 +8,7 @@
                     
                     <input type="submit" value="Enviar" class="btn">
                     <input type="reset" value="Limpar" class="btn">
-                    <a href="index.php?page=login">já possui uma conta?</a>
+                    <a href="index.php?page=cadastro">Não possui uma conta?</a>
                 </form>
         </article>
     </main>
