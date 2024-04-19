@@ -9,7 +9,7 @@
 }
 .form-fale > input {
     background-color: #00BAC6;
-    color: white;
+    color: var(--fonte1);
     font-weight: 900;
     font-size: 15px;
     border: none;
@@ -34,12 +34,12 @@
 
 .row > .col > input {
     border: none;
- padding: 2px;
- margin: 20px;
- width: 80%;
- font-size: 20px;
- height: 40px;
- border-radius: 10px;  
+    padding: 2px;
+    margin: 20px;
+    width: 80%;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;  
 }
 
 .espaco{

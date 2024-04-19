@@ -80,7 +80,6 @@ hr{
         color: var(--tema);
         font-family: "Inter", sans-serif;
         font-weight: 800;
-        margin-left: 20px;
         font-size: xx-large;
 }
 
@@ -128,8 +127,8 @@ hr{
 /* Destaque (default) */
 
 .destaque {
-    margin-top: 5%;
-    padding: 7% 5%;
+    margin: 5%;
+    padding: 5% 5%;
     background-color: var(--backGroundContainer);
     width: 80%;
 }

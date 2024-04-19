@@ -1,6 +1,6 @@
 
 .meio > .categoria > p{
-    color: white;
+    color: var(--fonte1);
     padding: 0px 5%;
 
     font-size: 16pt;
@@ -16,7 +16,7 @@
 
 .banner > p{
     font-size: 10pt;
-    color: white;
+    color: var(--fonte1);
 }
 
 .banner > img{
@@ -25,13 +25,12 @@
 
 
 #textLogo2{
-
-    color: #485465;
+    color: #204466;
     
-    -webkit-text-stroke: 3px #00F0FF;
+    -webkit-text-stroke: 3px var(--tema);
 
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial;
     font-weight: 800;
     font-size: 46pt;
 }

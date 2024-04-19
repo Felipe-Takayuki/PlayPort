@@ -1,7 +1,7 @@
 
 
 .dataExpiracao{
-    color: white;
+    color: var(--font1);
     margin-bottom: 3%;
 }
 
