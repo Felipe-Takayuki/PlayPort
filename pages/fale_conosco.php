@@ -4,15 +4,17 @@
             <div class="espaco"></div>
             <p class="page-name">Fale Conosco</p>
                 <form action="" method="post" class="form-fale">
+                    
                     <div class="row">
                         <div class="col">
                             <input type="text" name="ctnome" placeholder="Nome">
                             <input type="text" name="ctemail" placeholder="E-mail">
-                            <input type="text" name="cttelefone" placeholder="Telefône">
+                            <input type="text" name="cttelefone" placeholder="Telefone">
                         </div>
+                         
                         <div class="col">
                             <input type="text" name="ctassunto" placeholder="Assunto">
-                            <textarea name="email" cols="30" rows="10" placeholder="Conteúdo do e-mail"></textarea>
+                            <textarea name="email" cols="30" rows="5" placeholder="Conteúdo do e-mail"></textarea>
                         </div>
                     </div>
                     
