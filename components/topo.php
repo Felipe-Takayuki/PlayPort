@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/fale.css">
     <link rel="stylesheet" href="css/locacao.css">
     <link rel="stylesheet" href="css/fim.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
  <header class="topo">

@@ -1,0 +1,80 @@
+
+.form-cadastro{
+    padding: 5px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backGroundContainer);
+    align-items: center;
+    justify-content: space-between;
+}
+.form-cadastro > input {
+    width: 75%;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.form-cadastro > .btn {
+    background-color: #00BAC6;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.form-cadastro> .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form-cadastro > .row > .col-1 {
+    width: 40%;
+    outline: none;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.form-cadastro > .row > .col-2 {
+    width: 40%;
+    outline: none;
+
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.form-cadastro > .row > .col-1 > input {
+    border: none;
+ padding: 2px;
+ margin: 20px;
+ width: 80%;
+ font-size: 20px;
+ height: 40px;
+ border-radius: 10px;  
+}
+
+.form-cadastro > .row > .col-2 > input {
+    border: none;
+ padding: 2px;
+ margin: 20px;
+ width: 80%;
+ font-size: 20px;
+ height: 40px;
+ border-radius: 10px;  
+}
+.form-cadastro > a {
+    margin-top: 20px;
+    color: white;
+    text-decoration: underline;
+}

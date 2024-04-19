@@ -18,8 +18,13 @@ if (isset($_GET['page'])) {
             break;
         case 'locacao':
             require_once 'pages/locacao.php';
-        default: 
-        
+            break;
+        case 'cadastro':
+            require_once 'pages/cadastro.php';
+            break;
+        case 'login':
+            require_once 'pages/login.php';
+            break;
     }
 }else {
     require_once 'components/meio.php';
