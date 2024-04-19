@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-jogo">
                         <input type="text" name="ctnome" placeholder="Nome"> 
-                        <textarea name="ctdescricao" cols="30" rows="5" placeholder="Descrição do jogo"></textarea>
+                        <textarea name="ctdescricao" cols="30" rows="5" placeholder="Descrição do jogo" ></textarea>
                         <!-- preguiça -->
                         <input type="text" name="ctgenero" placeholder="Gênero">
                     </div>

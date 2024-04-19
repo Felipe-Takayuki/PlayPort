@@ -47,7 +47,6 @@
 }
 
 .row > .col > textarea {
-    resize: none;
     padding: 5px;
     font-size: 20px;
     border: none;
