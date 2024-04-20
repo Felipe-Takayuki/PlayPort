@@ -47,6 +47,17 @@
     resize: none;
 }
 
+.col-jogo > select{
+    width: 83%;
+    height: 50px;
+
+    font-size: 16pt;
+    background: white;  
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
 .form-jogo > .btn{
     background-color: #00BAC6;
     color: white;

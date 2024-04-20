@@ -5,7 +5,7 @@
     <div>
         <h1>PlayPort©</h1>
         <p>Todos os direitos reservados</p>
-        <p>Av. Lorenzo Ipsun, 678</p>
+        <p>Av. Lorenzo Ipsum, 678</p>
     </div>
 
     <div>
