@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_GET['page']) && $_GET['page'
 ?>
 
         </div>
+        
     </article>
 </main>
 
