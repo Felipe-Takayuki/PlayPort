@@ -1,8 +1,8 @@
-    
+
     <main>
         <article class="meio">
             <p class="page-name">Login</p>
-                <form action="" method="post" class="form-login">
+                <form action="index.php?page=processar_login" method="post" class="form-login">
                     <input type="text" name="ctemail" placeholder="Email">
                     <input type="password" name="ctsenha" placeholder="Senha">
                     

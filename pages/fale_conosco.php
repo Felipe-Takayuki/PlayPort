@@ -3,7 +3,7 @@
         <article class="meio">
             <div class="espaco"></div>
             <p class="page-name">Fale Conosco</p>
-                <form action="" method="post" class="form-fale">
+                <form action="index.php?page=processar_fale" method="post" class="form-fale">
                     
                     <div class="row">
                         <div class="col">
@@ -14,7 +14,7 @@
                          
                         <div class="col">
                             <input type="text" name="ctassunto" placeholder="Assunto">
-                            <textarea name="email" cols="30" rows="5" placeholder="Conteúdo do e-mail"></textarea>
+                            <textarea name="ctconteudo" cols="30" rows="5" placeholder="Conteúdo do e-mail"></textarea>
                         </div>
                     </div>
                     

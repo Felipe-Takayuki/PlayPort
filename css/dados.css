@@ -1,0 +1,13 @@
+.dados{
+    height: 100%;
+    width: 80%;
+    background-color: var(--backGroundContainer);
+    color: white;
+    font-size: 30px;
+    flex-direction: column;
+    padding: 20px;
+    padding: 7%;
+}
+.dados > p{
+    margin: 10px;
+}

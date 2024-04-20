@@ -28,6 +28,18 @@ if (isset($_GET['page'])) {
         case 'jogo_cadastro':
             require_once 'pages/cadastro_jogo.php';
             break;
+        case 'processar_login':
+            require_once 'pages/Dados/d.login.php';
+            break;
+        case 'processar_cadastro':
+            require_once 'pages/Dados/d.cadastro.php';
+            break;
+        case 'processar_jogo':
+            require_once 'pages/Dados/d.jogos.php';
+            break;
+        case 'processar_fale':
+            require_once 'pages/Dados/d.fale.php';
+            break;
     }
 }else {
     require_once 'components/meio.php';
