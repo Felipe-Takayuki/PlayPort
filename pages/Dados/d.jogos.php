@@ -1,6 +1,6 @@
 <main>
     <article class="meio">
-        <p class="page-name">Dados Cadastro</p>
+        <p class="page-name">Dados Jogo</p>
         <div class="dados">
             <h1>Informações</h1>
         <?php
