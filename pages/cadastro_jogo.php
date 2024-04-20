@@ -10,7 +10,14 @@
                     <div class="col-jogo">
                         <input type="text" name="ctnome" placeholder="Nome"> 
                         <textarea name="ctdescricao" cols="30" rows="5" placeholder="Descrição do jogo" ></textarea>
-                        <input type="text" name="ctgenero" placeholder="Gênero">
+                        
+                        <select name="ctgenero">
+                            <option value="genero" selected disabled>Gênero</option>
+                            <option value="rpg">RPG</option>
+                            <option value="shooter">Shooter</option>
+                            <option value="estrategia">Estratégia</option>
+                            <option value="plataforma">Plataforma</option>
+                        </select>
                     </div>
                 </div>
                 <div class="espaco-jogo"></div>
