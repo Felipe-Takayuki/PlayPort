@@ -1,5 +1,6 @@
 
 <main>
+
     <article class="meio">
         <h1 class="textLogo">PlayPort</h1>
         <p class="locadoraDe">Locadora da jogos</p>
@@ -26,8 +27,10 @@
                         <div class="button">Saiba Mais</div>
                     </a>
                 </div>
+
             </div>
         </div>
     </article>
+
 </main>
 

@@ -25,9 +25,10 @@ if (isset($_GET['page'])) {
         case 'login':
             require_once 'pages/login.php';
             break;
-        case 'jogo_cadastro':
+        case 'cadastro-jogo':
             require_once 'pages/cadastro_jogo.php';
             break;
+
     }
 }else {
     require_once 'components/meio.php';
@@ -35,5 +36,6 @@ if (isset($_GET['page'])) {
 
 require_once 'components/rodape.php';
 ?>
+
 </body>
 </html>
