@@ -1,4 +1,23 @@
 
+#primeiro{
+    display: flex;
+    
+    padding: 0% 5%;
+    justify-content: space-between;
+}
+
+
+#ademir{
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom:5px ;
+    
+    color: var(--fonte1);
+    text-decoration: underline;
+    text-align: center;
+}
+
+
 .categoria > .jogos {
     display: flex;
     justify-content: space-around;
@@ -6,7 +25,7 @@
 
 .categoria {
     width: 80%;
-    background-color:    var(--backGroundContainer);
+    background-color:  var(--backGroundContainer);
     padding: 2%;
 }
 
@@ -28,7 +47,7 @@
     background-color: var(--cardColor);
 }
 
-.categoria > .titulo {
+.titulo {
     margin-top: 10px;
     margin-bottom:5px ;
     font-weight: bold;

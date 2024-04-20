@@ -53,6 +53,7 @@ hr{
 
 .logo{
     align-items: center;
+    justify-content: space-evenly;
     display: flex;
 }
 
@@ -155,8 +156,8 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 27%;
-    height: 55vh;
+    width: 20%;
+    height: 45vh;
     background-color:var(--cardColor);
 }
 
@@ -171,8 +172,10 @@ hr{
 
 .destaque > .empresa > .imagem {
     width: 63%;
-    height: 314px;
+    height: 35vh;
+
     background-image: url(../assets/images/fachada.jpg);
+    background-position: center;
     background-size: cover;
 }
 

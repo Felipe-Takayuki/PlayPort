@@ -19,5 +19,3 @@
             </form>
         </article>
     </main>
-</body>
-</html>

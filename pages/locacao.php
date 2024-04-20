@@ -25,5 +25,3 @@
     </article>
 </main>
 
-</body>
-</html>
