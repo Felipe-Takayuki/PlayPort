@@ -20,7 +20,7 @@
 }
 
 .form-cadastro > .btn {
-    background-color: #00BAC6;
+    background-color: var(--tema);
     color: white;
     font-weight: 900;
     font-size: 15px;
@@ -29,6 +29,11 @@
     height: 40px;
     margin: 5px;
     border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: #00d1e0;
+    cursor: pointer;
 }
 
 .form-cadastro> .row{

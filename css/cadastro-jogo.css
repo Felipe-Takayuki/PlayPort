@@ -16,6 +16,7 @@
     width: 30%;
     height: 250px;
 }
+
 .add-img > img {
     width: 20%;
 }
@@ -59,7 +60,7 @@
 }
 
 .form-jogo > .btn{
-    background-color: #00BAC6;
+    background-color: var(--tema);
     color: white;
     font-weight: 900;
     font-size: 12px;
@@ -69,6 +70,11 @@
     margin-bottom: 20px;
     border-radius: 14px;
 }
+
+.btn:hover{
+    background-color: #00d1e0       ;
+}
+
 .espaco-jogo{
     height: 60px;
 }

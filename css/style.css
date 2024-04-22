@@ -47,6 +47,12 @@ hr{
 
 /* Classes */
 
+.navegacao > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+
+
 .topo{
     background-color: var(--menu);
 }
@@ -205,4 +211,6 @@ hr{
     align-items: center;
 }
 
-
+.button:hover {
+    background-color: #00d1e0;
+}

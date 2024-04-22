@@ -9,7 +9,7 @@
                         <div class="col">
                             <input type="text" name="ctnome" placeholder="Nome">
                             <input type="text" name="ctemail" placeholder="E-mail">
-                            <input type="text" name="cttelefone" placeholder="Telefone">
+                            <input type="tel" name="cttelefone" placeholder="Telefone">
                         </div>
                          
                         <div class="col">
