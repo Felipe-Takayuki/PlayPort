@@ -1,20 +1,68 @@
+<?php
+ $css;
+ $titulo;
+ if (isset($_GET['page'])) {
+    $p = $_GET['page'];
+    switch($p) {
+        case 'jogos':
+            $css = "games.css";
+            $titulo = "Jogos";
+            break;
+        case 'empresa':
+            $css = "empresa.css";
+            $titulo = "Trabalho";
+            break;
+        case 'fale_conosco':
+            $css = "fale.css";
+            $titulo = "Fale Conosco";
+            break;
+        case 'locacao':
+            $css = "locacao.css";
+            $titulo = "Locação de Jogos";
+            break;
+        case 'cadastro':
+            $css = "cadastro.css";
+            $titulo = "Cadastro";
+            break;
+        case 'login':
+            $css = "login.css";
+            $titulo = "Login";
+            break;
+        case 'cadastro-jogo':
+            $css = "cadastro-jogo.css";
+            $titulo = "Cadastro de Jogos";
+            break;
+        case 'processar_login':
+            $css = "dados.css";
+            $titulo = "Processamento do Login";
+            break;
+        case 'processar_cadastro':
+            $css = "dados.css";
+            $titulo = "Processamento do Cadastro";           
+            break;
+        case 'processar_jogo':
+            $css = "dados.css";
+            $titulo = "Processamento do Jogo";
+            break;
+        case 'processar_fale':
+            $css = "dados.css";
+            $titulo = "Processamento de Dados";
+            break;
+
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayPort</title>
+    <title><?=$titulo?></title>
     <link rel="icon" href="assets/images/logo.ico">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/games.css">
-    <link rel="stylesheet" href="css/empresa.css">
-    <link rel="stylesheet" href="css/fale.css">
-    <link rel="stylesheet" href="css/locacao.css">
     <link rel="stylesheet" href="css/fim.css">
-    <link rel="stylesheet" href="css/cadastro.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/cadastro-jogo.css">
-    <link rel="stylesheet" href="css/dados.css">
+    <link rel="stylesheet" href="css/<?=$css?>">
 </head>
 <body>
  <header class="topo">
