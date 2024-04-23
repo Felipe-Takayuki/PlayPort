@@ -47,11 +47,24 @@ hr{
 
 /* Classes */
 
+.categoria {
+    width: 80%;
+    background-color:  var(--backGroundContainer);
+    padding: 2%;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom:5px ;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 30px;
+    color: var(--fonte1);
+}
+
 .navegacao > ul > li > a:hover{
     text-decoration: underline;
 }
-
-
 
 .topo{
     background-color: var(--menu);
@@ -133,7 +146,49 @@ hr{
     margin-bottom: 20px;
 }
 
+/* Categorias */
 
+.categoria > .jogos {
+    color: var(--fonte1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoria > .jogos > .card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    height: 55vh;
+}
+
+.card > .capa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    background-color: var(--cardColor);
+    color: black;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: var(--tema);
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: #00BAC6;
+}
 
 /* Destaque (default) */
 

@@ -3,6 +3,7 @@
         <article class="meio">
             <p class="page-name">Cadastro de Jogos</p>
             <form action="index.php?page=processar_jogo" method="post" class="form-jogo" >
+                
                 <div class="row">
                     <div class="add-img">
                         <img src="assets/icons/addIcon.svg" alt="" srcset="">
