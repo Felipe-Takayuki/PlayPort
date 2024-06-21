@@ -1,6 +1,6 @@
 # PlayPort
 ### `Alunos:` Eduardo Girão e Felipe Takahashi
-### Proposta da atidade:
+### Proposta da atividade:
 Crie um site, baseado no que foi aprendido até agora, que atenda uma empresa de Locação de quaisquer produtos.
 
 ### Requisitos:
